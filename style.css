@@ -1,72 +1,118 @@
+A {
+  text-decoration: none; 
+  color: rgb(54, 46, 46);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  margin: 10px
+  } 
 
-
-
-.a{
-    list-style-type: none;
-    position: left;
-    margin: 0px 12px 0px 0px;
-    padding: 0;
-    overflow: hidden;
-    font-size: 10pt;
-    font-family: Arial, Helvetica, sans-serif;
-  }
-
-.b{
-    position: right;
-    float: right;
-    margin: 0px 12px 0px 0px;
-    list-style-type: none;
-    padding: 0;
-    overflow: hidden;
-    font-size: 10pt;
-    font-family: Arial, Helvetica, sans-serif;
-  }
-
-  }
-
-.c{
-    list-style-type: none;
-    margin: 3px;
-    padding: 0;
-    overflow: hidden;
-    font-size: 10pt;
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0px 12px 0px 0px;
-  }
-
-.d{
-    float: right;
-    margin: 3px;
-    list-style-type: none;
-    padding: 0;
-    overflow: hidden;
-    font-size: 10pt;
-    font-family: Arial, Helvetica, sans-serif;
-    list-style-type: none;
-    margin: 0px 12px 0px 0px;
+.l{
+    display: inline;
   }
   
-  li {
+.l{
+    display: inline;
+    position: sticky;
     float: left;
-    list-style-type: none;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 10pt;
-    margin: 0px 12px 0px 0px;
+    margin: 5px 0px 0px 0px;
   }
 
-  h1{
-      text-align: center;
-      vertical-align: middle;
-      padding: 120px 100px 2px 100px;
-      
+.r{
+  display: inline;
+}
+
+.r{
+  display: inline;
+  position: sticky;
+  float: right;
+  margin: 5px;
+}
+
+#hey{
+  color: rgb(250, 246, 246);
+  background-color: rgb(94, 94, 219);
+  padding: 7px 14px;
+  font-size: 11pt;
+}
+
+.middle{
+  margin: auto;
+  text-align: center;
+  vertical-align: 100px;
+}
+
+#google{
+   text-align: center;
+   padding: 150px 0px 0px 150px;
+   margin: 0px 0px 0px 0px;
   }
 
-  form { 
-    text-align: center;  
-    margin: 0 auto; 
-    width:500px;
-    }
+form{
+  padding: 0px 25px 25px 00px;
+}
 
-  input{
-      text-align: center;
-  }
+input{
+  width: 45%;
+  padding: 12px 20px;
+  border: 2px solid rgb(223, 217, 217);
+  border-radius: 30px;
+}
+
+#search{
+  font-size: 11pt;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(247, 238, 238);
+  color: rgb(77, 72, 72);
+  margin: 25px 6px 0px 0px;
+  padding: 8px;
+  border: .5px solid rgb(223, 217, 217);
+  border-radius: 5px;
+
+}
+
+#lucky{
+  font-size: 11pt;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(247, 238, 238);
+  color: rgb(58, 54, 54);
+  margin: 25px 0px 0px 6px;
+  padding: 8px;
+  border: .5px solid rgb(223, 217, 217);
+  border-radius: 5px;
+
+}
+
+.bl{
+  display: inline;
+}
+
+.bl{
+  display: inline;
+  position: sticky;
+  float: left;
+  margin: 0px 0px 0px 0px;
+  padding: 5px;
+}
+
+.br{
+display: inline;
+}
+
+.br{
+display: inline;
+position: sticky;
+float: right;
+margin: 0px 0px 0px 0px;
+padding: 5px;
+}
+
+footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(243, 235, 235);
+  height: 40px;
+}
+
+
