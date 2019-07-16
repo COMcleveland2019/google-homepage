@@ -33,6 +33,7 @@ A {
   background-color: rgb(94, 94, 219);
   padding: 7px 14px;
   font-size: 11pt;
+  border-radius: 2px;
 }
 
 .middle{
@@ -71,7 +72,7 @@ input{
 }
 
 #lucky{
-  font-size: 11pt;
+  font-size: 10.5pt;
   font-family: Arial, Helvetica, sans-serif;
   background-color: rgb(247, 238, 238);
   color: rgb(58, 54, 54);
